@@ -481,7 +481,11 @@ background-color:#fff;
      width:625px;
 }
 
-.feature4-list li{
+.feature4-list {
+        padding-left:0;
+}
+
+.feature4-list li{   
         list-style: none;
         padding: 5px;
 }
