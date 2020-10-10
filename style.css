@@ -8,6 +8,8 @@ html {
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-snap-type: y mandatory;
+  img { max-width: 100%; height: auto; }
+
 }
 
 
@@ -131,14 +133,14 @@ video {
 }
 
 .welcome-text {
-    margin:0;
   position: absolute;
     text-align: left;  
     top: 20%;
-  left: 20%;
-  right:0;
+  right: 20%;
+  left:20%;
+  padding-right:10%;
   color: white;
-    font-size: 2.5vw;
+    font-size: 35px;
 }
 
 .welcome-text h1 {
@@ -251,7 +253,7 @@ video {
     opacity:0.5;
   }
   100% {
-   opacity:1;
+   opacity:0;
   }
 }
 
@@ -278,18 +280,11 @@ video {
 }
 
 #about-title {
-    display: inline-block;
     font-style:italic;
     top:5%;
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 50px;
     color:#80b3ff;
-    opacity:0;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 100%;
-    animation: linearwipe 1.5s steps(80, end) forwards; 
-    animation-delay:5.5s;
 }
 
 .grid-wrapper {
@@ -383,66 +378,23 @@ text-decoration:none;
  *  FEATURE 1
  **********************************************************************/
 .feature1-container {
+    display:flex;
          margin-top:-8%;
-    height: 100%;
-    padding-bottom: 5%;
+    height: 100vh;
 background: rgb(136,206,252);
 background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%); 
     transform:skewY(4deg);
     color:#fff;
-    left:0;
-    right:0;
       scroll-snap-align: center;
 }
 
-#feature1-image {
-  position: absolute;
-  height: 460px;
-  width: auto;
-  right:8%;
-  top:5%;
-  transform:skewY(-4deg);
-}
-
-@media screen and (max-width:700px) {#feature1-image {
-    font-size: 15px;
-  height: 380px;
-  width: auto;
-  right:5%;
-}
-}
-
 .feature1-text {
-  position:relative;
-  left:7%;
-  top:15%;
-  transform:skewY(-4deg);
-  font-size: 25px;
-    width:62%;
-}
-
-@media screen and (max-width:520px) {.feature1-text {
-    font-size:3vw;
-    width:48%;
-    top:10vw;
-}
-}
-@media screen and (min-width:520px) {.feature1-text {
-    font-size:2.5vw;
-    width:52%;
-}
-}
-
-@media screen and (min-width:760px) {.feature1-text {
-    font-size:2.3vw;
-    width:55%;
-}
-}
-
-@media screen and (min-width:900px) {.feature1-text {
+  float:left;
+      align-self:center;
+margin-left:7%;
+margin-right:2%;
   font-size: 2vw;
-    width:63%;
-}
+  transform:skewY(-4deg);
 }
 
 .feature1-list li {
@@ -450,38 +402,45 @@ background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%);
 }
 
 .feature1-list-boxes {
-    font-size:1.7vw;
+    font-size:1vw;
       border: 2px solid #fff;
   border-radius: 12px;
   padding: 2px 5px 2px 5px;
+}
+
+#feature1-image {
+  float:right;
+  height: 88%;
+  width: auto;
+  margin-top:2%;
+  margin-right:7%;
+  transform:skewY(-4deg);
 }
 
 /***********************************************************************
  *  FEATURE 2
  **********************************************************************/
 .feature2-container {
+  display:flex;
+  align-items:center;
     height: 95vh;
  background-color:#fff;
     color:#6bb0ff;
-    left:0;
-    right:0;
     scroll-snap-align: center;
 }
 
 #feature2-image {
-  position: relative;
-  height: 37vw;
+  float:left;
+  height: 88%;
   width: auto;
-  left:12%;
-  top:5%
+  margin-left:7%;
 }
 
 .feature2-text {
 float:right;
-top:12%;
-right:7%;
-    position: relative;
-  font-size: 2vw;
+margin-left:5%;
+margin-right:7%;
+  font-size: 2.2vw;
      color:#6bb0ff;
 }
 
@@ -493,73 +452,62 @@ right:7%;
  *  FEATURE 3
  **********************************************************************/
 .feature3-container {
+    display:flex;
     height: 95vh;
-background: rgb(136,206,252);
+    background: rgb(136,206,252);
 background: linear-gradient(90deg, rgba(136,206,252,1) 0%, rgba(150,185,255,1) 38%, rgba(120,156,255,1) 88%);
     transform:skewY(-4deg);
     color:#fff;
-    left:0;
-    right:0;
     scroll-snap-align: center;
 }
 
-#feature3-image {
-  position: absolute;
-  height: 37vw;
-  width: auto;
-  left:70%;
-  top:8%;
+.feature3-text {
+  float:left;
+  margin-top:7%;
+  margin-left:7%;
+  margin-right:2%;
+  font-size:2vw;
   transform:skewY(4deg);
 }
 
-.feature3-text {
-    position:relative;
-  left:12%;
-  top:15%;
-  font-size: 2vw;
-    transform:skewY(4deg);
-    width:55vw;
+#feature3-image {
+  float:right;
+  margin-top:3%;
+  height: 88%;
+  width: auto;
+  margin-right:7%;  
+  transform:skewY(4deg);
 }
-
 /***********************************************************************
  *  FEATURE 4
  **********************************************************************/
 .feature4-container {
-    height: 100vh;
+    display:flex;    
+    height: 95vh;
 background-color:#fff;
-    color:#6bb0ff;;
-    left:0;
-    right:0;
+    color:#6bb0ff;
     scroll-snap-align: start;
 }
 
 #feature4-image {
-  position: relative;
-  height: 37vw;
+float:left;
+margin-top:5%;
+  height: 88%;
   width: auto;
-  left:12%;
-  top:7%;
+  margin-left:7%;
 }
 
 .feature4-text {
   float:right;
-right:7%;
-top:10%;
-    position: relative;
-  font-size: 2vw;
+  align-self :center;
+margin-left:5%;
+margin-right:7%;
+  font-size: 2.2vw;
      color:#6bb0ff;
-    text-align: left;
-    margin:2px;
-     width:52vw;
 }
 
 .feature4-list {
-        padding-left:0;
-}
-
-.feature4-list li{
-        padding-left:0;        
-        list-style: none;
+        padding-left:25px;
 }
 
 .feature4-list li a{
@@ -748,27 +696,21 @@ top:10%;
  *  DOWNLOAD
  **********************************************************************/
  .download-container {
-    height: 100%;
-    margin-left:5%;
-    margin-right:5%;
-    padding-top:5%;
+    text-align: center;
+        height: 100%;
              background-color: #FFF;
              color: #6bb0ff;
     scroll-snap-align: start;
 }
 
 #download-brand  {
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:2px;
+  padding-top:5%;
   height: 115px;
 }
 
  .download-container h1 {
     font-weight:700;
     font-size: 40px;    
-    text-align: center;
     margin-bottom: 0px;
 }
 
@@ -778,18 +720,16 @@ top:10%;
      font-weight:lighter;
     font-style:italic;
     color:#6bb0ff;
-    margin-top:10px;
+    margin-left:7%;
+    margin-right:7%;
 }
 
 .download-buttons img {
-         display: block;
-  margin-left: auto;
-  margin-right: auto;
         height: 49px;
     width: 160px;
-    padding-top: 2%;
+    padding-left:2%;
+    padding-right:2%;
  }
-
 
 #download-social-media {
      display: block;
@@ -819,18 +759,18 @@ footer h1 {
     display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
   grid-template-rows: 1fr;
-  grid-gap:6px;
+  grid-gap:1px;
 }
 
 .footer-box {
-    padding: 30px 20px 0px 20px;
+    padding: 30px 0px 0px 20px;
 }
 
 .footer-brand {
     float:left;
-    margin:20px;
     text-align: center;
     align-content: center;
+    padding-left:5%;
 }
 
 #footer-brand-logo {
@@ -845,11 +785,17 @@ footer h1 {
   width: auto;
 }
 
+.footer-discover {
+  float:left;
+}
+
 .footer-discover-list a {
+    margin:0;
     font-weight:bold;
     font-size:1.7rem;
     text-decoration: none;
-    padding:40px 0px 40px 0;
+    padding-top:40px;
+    padding-bottom:40px;
 color:#fff;
 }
 
@@ -857,12 +803,19 @@ color:#fff;
     color:#e3ecff;
 } 
 
+.footer-social {
+  float:left;
+}
+
 .footer-social img {
 margin-left:-2%;
   height:42px;
   width:auto;
 }
 
+.footer-download {
+  float:right;
+}
 .footer-download a {
     text-decoration: none;
 color:#fff;
