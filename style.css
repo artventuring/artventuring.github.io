@@ -112,6 +112,8 @@ margin-bottom: 100px;
  *  WELCOME
  **********************************************************************/
 .welcome-container  {
+  position:relative;
+  margin:0;
     height:100vh;
     width:100%;
     background-size: cover, contain;
@@ -135,12 +137,16 @@ video {
 .welcome-text {
   position: absolute;
     text-align: left;  
-    top: 20%;
-  right: 20%;
-  left:20%;
-  padding-right:10%;
+    top: 50%;
+    left:35%;
+      transform: translate(-35%, -50%);
   color: white;
     font-size: 35px;
+}
+
+ @media only screen and (max-width: 550px) {.welcome-text
+ {  font-size:4.5vw;
+}
 }
 
 .welcome-text h1 {
@@ -154,27 +160,53 @@ video {
 }
 
 #w1 {
-  font-size: 5vw; 
+  font-size: 70px; 
   font-weight: bold; 
   color:#96b9ff;
+}
+
+
+ @media only screen and (max-width: 550px) {#w1
+ {  font-size:9vw;
+}
 }
 
 #w2 {
-  font-size: 4vw; 
+  font-size: 52px; 
   font-weight: bold; 
   color:#96b9ff;
 }
 
+ @media only screen and (max-width: 550px) {#w2
+ {  font-size:6.6vw;
+}
+}
+
 #w3 {
-  font-size:1.6vw;
+  font-size:20px;
+}
+
+ @media only screen and (max-width: 550px) {#w3
+ {  font-size:2.6vw;
+}
 }
 
 #hw1 {
-  font-size: 4vw;
+  font-size: 47px;
+}
+
+ @media only screen and (max-width: 550px) {#hw1
+ {  font-size:6vw;
+}
 }
 
 #hw2 {
-  font-size: 3vw;
+  font-size: 35px;
+}
+
+ @media only screen and (max-width: 550px) {#hw2
+ {  font-size:4.5vw;
+}
 }
 
 @keyframes welcomegradient {
@@ -214,15 +246,21 @@ video {
 
 .welcome-text img {
     position: relative;
-    height: 5vw;
-    width:auto;
-    left: -1%;    
-    padding: 10px;
+        height: 49px;
+    width: 160px;
+    padding-top:5%;
+    padding-left:2%;
+    padding-right:2%;    
     opacity:0;
     animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
     animation-delay:4s;
 }
 
+ @media only screen and (max-width: 550px) {.welcome-text img
+ {  height:8vw;
+  width:26vw;
+}
+}
 #welcome-iphone {
     position: absolute;
     top: 20%;
@@ -234,6 +272,10 @@ video {
     animation-delay:3.3s;
 }
 
+ @media only screen and (max-width: 1200px) {#welcome-iphone
+ {  display:none;
+}
+}
 
 @keyframes linearwipe { 
   from { width: 0; } 
@@ -274,6 +316,7 @@ video {
 .about-container {
     height: 100%;
     padding-bottom: 14%;
+    margin:0;
     background-image: url(./img/aboutbg.jpg);
     background-size: cover, contain;
         scroll-snap-align: start;
@@ -388,6 +431,16 @@ background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%);
       scroll-snap-align: center;
 }
 
+ @media only screen and (max-width: 550px) {.feature1-container
+ {  display:flex;
+  height:100%;
+   padding-top: 5%;
+  padding-bottom: 5%;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+}
+
 .feature1-text {
   float:left;
       align-self:center;
@@ -396,6 +449,7 @@ margin-right:2%;
   font-size: 2vw;
   transform:skewY(-4deg);
 }
+
 
 .feature1-list li {
     padding: 5px;
@@ -418,9 +472,10 @@ margin-right:2%;
 }
 
  @media only screen and (max-width: 550px) {#feature1-image
- {  height: 50vw;
-  width: auto;
-align-self: center} 
+ {  height:60vw;
+  width:auto;
+  align-self: center;
+}
 }
 /***********************************************************************
  *  FEATURE 2
@@ -713,7 +768,7 @@ margin-right:7%;
   height: 115px;
 }
 
- .download-container h1 {
+.download-container h1 {
     font-weight:700;
     font-size: 40px;    
     margin-bottom: 0px;
