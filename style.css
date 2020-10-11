@@ -253,7 +253,7 @@ video {
     opacity:0.5;
   }
   100% {
-   opacity:0;
+   opacity:1;
   }
 }
 
@@ -410,7 +410,7 @@ margin-right:2%;
 
 #feature1-image {
   float:right;
-  height: 88%;
+  height: 40vw;
   width: auto;
   margin-top:2%;
   margin-right:7%;
