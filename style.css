@@ -137,9 +137,9 @@ video {
 .welcome-text {
   position: absolute;
     text-align: left;  
-    top: 50%;
+    top: 35%;
     left:35%;
-      transform: translate(-35%, -50%);
+      transform: translate(-35%, -35%);
   color: white;
     font-size: 35px;
 }
@@ -436,7 +436,7 @@ background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%);
 
  @media only screen and (max-width: 550px) {.feature1-container
  {  display:flex;
-  height:100vh;
+  height:100%;
    padding-top: 5%;
   padding-bottom: 5%;
   flex-wrap:wrap;
@@ -454,6 +454,11 @@ margin-right:2%;
 }
 
 
+ @media only screen and (max-width: 550px) {.feature1-text
+{ font-size: 4vw;
+}
+}
+
 .feature1-list li {
     padding: 5px;
 }
@@ -465,6 +470,10 @@ margin-right:2%;
   padding: 2px 5px 2px 5px;
 }
 
+ @media only screen and (max-width: 550px) {.feature1-list-boxes
+{ font-size: 3vw;
+}
+}
 #feature1-image {
   float:right;
   height: 88%;
@@ -475,7 +484,7 @@ margin-right:2%;
 }
 
  @media only screen and (max-width: 550px) {#feature1-image
- {  height:60vw;
+ {  height:75vw;
   width:auto;
   align-self: center;
 }
