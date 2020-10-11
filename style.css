@@ -145,7 +145,7 @@ video {
 }
 
  @media only screen and (max-width: 550px) {.welcome-text
- {  font-size:4.5vw;
+ {  font-size:5.5vw;
 }
 }
 
@@ -167,7 +167,7 @@ video {
 
 
  @media only screen and (max-width: 550px) {#w1
- {  font-size:9vw;
+ {  font-size:10vw;
 }
 }
 
@@ -178,7 +178,7 @@ video {
 }
 
  @media only screen and (max-width: 550px) {#w2
- {  font-size:6.6vw;
+ {  font-size:7.6vw;
 }
 }
 
@@ -196,7 +196,7 @@ video {
 }
 
  @media only screen and (max-width: 550px) {#hw1
- {  font-size:6vw;
+ {  font-size:7vw;
 }
 }
 
@@ -205,7 +205,7 @@ video {
 }
 
  @media only screen and (max-width: 550px) {#hw2
- {  font-size:4.5vw;
+ {  font-size:5.5vw;
 }
 }
 
@@ -246,8 +246,8 @@ video {
 
 .welcome-text img {
     position: relative;
-        height: 49px;
-    width: 160px;
+        height: 60px;
+    width: 196px;
     padding-top:5%;
     padding-left:2%;
     padding-right:2%;    
@@ -257,8 +257,11 @@ video {
 }
 
  @media only screen and (max-width: 550px) {.welcome-text img
- {  height:8vw;
-  width:26vw;
+ {  height:10vw;
+  width:35vw;
+  padding:0;
+      padding-top:2.2vw;
+    padding-right:1.4vw;  
 }
 }
 #welcome-iphone {
@@ -433,7 +436,7 @@ background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%);
 
  @media only screen and (max-width: 550px) {.feature1-container
  {  display:flex;
-  height:100%;
+  height:100vh;
    padding-top: 5%;
   padding-bottom: 5%;
   flex-wrap:wrap;
