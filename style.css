@@ -402,21 +402,26 @@ margin-right:2%;
 }
 
 .feature1-list-boxes {
-    font-size:1vw;
-      border: 2px solid #fff;
+    font-size:1.5vw;
+      border: 1.5px solid #fff;
   border-radius: 12px;
   padding: 2px 5px 2px 5px;
 }
 
 #feature1-image {
   float:right;
-  height: 40vw;
+  height: 88%;
   width: auto;
   margin-top:2%;
   margin-right:7%;
   transform:skewY(-4deg);
 }
 
+ @media only screen and (max-width: 550px) {#feature1-image
+ {  height: 50vw;
+  width: auto;
+align-self: center} 
+}
 /***********************************************************************
  *  FEATURE 2
  **********************************************************************/
