@@ -15,7 +15,7 @@ html {
  **********************************************************************/
 .navbar {
   position: absolute;  
-  border: transparent;
+  border: transparent;                      
   background: transparent;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
@@ -234,7 +234,7 @@ video {
   position: relative;
   height: 60px;
   width: 196px;
-  padding-top: 5%;
+  padding-top: 2.2vw;
   padding-left: 2%;
   padding-right: 2%;    
   opacity: 0;
@@ -246,7 +246,7 @@ video {
  {height: 10vw;
   width: 35vw;
   padding: 0;
-  padding-top: 2.2vw;
+  padding-top: 2vw;
   padding-right: 1.4vw;}
 }
 
@@ -400,6 +400,10 @@ video {
 
 .box:active .about-arrow-btn {
   color:#bfcbff;
+}
+
+ @media only screen and (max-width: 550px) {.about-arrow-btn
+  {font-size: 6vw;}
 }
 
 /***********************************************************************
