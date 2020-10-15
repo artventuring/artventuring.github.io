@@ -373,19 +373,19 @@ video {
 }
 
 .box1:hover {
-  background-image: url(./img/about1-img.jpg);
+  background-image: url(./img/about1.webp);
 }
 
 .box2:hover {
-  background-image: url(./img/about2-img.jpg);
+  background-image: url(./img/about2.webp);
 }
 
 .box3:hover {
-  background-image: url(./img/about3-img.jpg);
+  background-image: url(./img/about3.jpg);
 }
 
 .box4:hover {
-  background-image: url(./img/about4-img.jpg);
+  background-image: url(./img/about4.jpg);
 }
 
 .about-arrow-btn {
