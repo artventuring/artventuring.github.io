@@ -590,7 +590,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature4-container
   {display: flex;
-  padding-top: 5%;
+  padding-top: 8%;
   padding-bottom: 5%;
   height: 100%;  
   flex-wrap: wrap;
