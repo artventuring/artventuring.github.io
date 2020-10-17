@@ -480,6 +480,7 @@ video {
 .feature2-container {
   display: flex;
   height: 95vh;
+  padding-bottom: 0.5%;
   align-items: center; 
   background-color: #fff;
   color: #6bb0ff;
@@ -562,7 +563,7 @@ video {
 
 #feature3-image {
   float: right;
-  margin-top: 3.5%;
+  margin-top: 3%;
   margin-right: 7%;  
   height: 88%;
   width: auto;  
