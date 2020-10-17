@@ -298,7 +298,7 @@ video {
 .about-container {
   height: 100%;
   padding-bottom: 14%;
-  background-image: url(./img/aboutbg.webp);
+  background-image: url(./img/aboutbg.jpg);
   background-size: cover, contain;
   scroll-snap-align: start;
 }
@@ -373,19 +373,19 @@ video {
 }
 
 .box1:hover {
-  background-image: url(./img/about1.webp);
+  background-image: url(./img/about1.jpg);
 }
 
 .box2:hover {
-  background-image: url(./img/about2.webp);
+  background-image: url(./img/about2.jpg);
 }
 
 .box3:hover {
-  background-image: url(./img/about3.webp);
+  background-image: url(./img/about3.jpg);
 }
 
 .box4:hover {
-  background-image: url(./img/about4.webp);
+  background-image: url(./img/about4.jpg);
 }
 
 .about-arrow-btn {
@@ -647,7 +647,7 @@ video {
 .testimonials-container {
   padding-bottom: 10%;
   height: 100%;             
-  background-image: url(./img/testimonialsbg.webp);
+  background-image: url(./img/testimonialsbg.jpg);
   background-size: cover, contain;
   scroll-snap-align: start;
 }
