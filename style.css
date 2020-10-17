@@ -542,7 +542,7 @@ video {
 @media only screen and (max-width: 550px) {.feature3-container
  {display: flex;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 8%;
   height: 100%;  
   flex-wrap: wrap;
   justify-content: center;}
