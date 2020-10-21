@@ -103,8 +103,8 @@ html {
   color: #d6b976;
 }
 
-@media only screen and (max-width: 480px) {.navbar-main
- {display:none;}
+@media only screen and (max-width: 490px) {.navbar-main
+  {display:  none;}
 }
 
 /***********************************************************************
