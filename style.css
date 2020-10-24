@@ -972,3 +972,11 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+@media only screen and (max-width: 550px) {.footer-social
+  {display: none}
+}
+
+@media only screen and (max-width: 440px) {.footer-download
+  {display: none}
+}
