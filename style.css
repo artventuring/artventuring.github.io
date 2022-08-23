@@ -919,13 +919,14 @@ footer h1 {
 .footer-download a {
   text-decoration: none;
   padding: 9px;
-    border: 2px solid #fff;
+  border: 2px solid #fff;
   border-radius: 12px;
   color: #fff;
 }
 
 .footer-download a:hover {
-  color: #e3ecff;
+  color: #6bb0ff;
+  background-color: #fff;
 } 
 
 #footer-credits {
