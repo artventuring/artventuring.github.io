@@ -317,6 +317,7 @@ video {
 }
 
 .box {
+  background-size: cover, contain;
   margin: 0px 10px 80px 10px;  
   padding: 20px 7px 10px 7px;
   text-align: center;  
@@ -338,7 +339,6 @@ video {
 }    
 
 .box:hover {
-  background-size: cover, contain;
   color: #fff;
   transform: scale(1.04);
 }
