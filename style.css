@@ -298,8 +298,7 @@ video {
 .about-container {
   height: 100%;
   padding-bottom: 14%;
-  background-image: url(./img/aboutbg.jpg);
-  background-size: cover, contain;
+  background-color: #000;
   scroll-snap-align: start;
 }
 
@@ -307,7 +306,7 @@ video {
   margin: 0;
   padding: 3% 5%;
   font-size: 50px;
-  color: #fff;
+  color: #80b3ff;
   text-align: center;
 }
 
@@ -632,7 +631,6 @@ video {
 .testimonials-container h1 {
   padding-top: 5%;        
   text-align: center;
-  font-style: italic;
   font-size: 50px;
   color: #fff;
 }
@@ -926,6 +924,8 @@ footer h1 {
 
 .footer-download a {
   text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 12px;
   color: #fff;
 }
 
