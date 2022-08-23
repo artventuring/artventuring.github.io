@@ -58,7 +58,6 @@ html {
 }
 
 .navbar-main a:active {
-  text-shadow: 2px 2px 3px #000;
   transition: 0.3s; 
 }
 
@@ -95,6 +94,7 @@ html {
 .navbar-btn:active {
   border: 2px solid #fff;
   color: #d6b976;
+  font-style: bold;
   background-color: #fff;
   transition: 0.3s;
 }
