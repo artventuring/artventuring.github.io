@@ -304,7 +304,7 @@ video {
 
 #about-title {
   margin: 0;
-  padding: 3% 5%;
+  padding: 3% 5% 6% 3%;
   font-size: 50px;
   color: #80b3ff;
   text-align: center;
@@ -314,7 +314,6 @@ video {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 4px;
-  padding-top: 5px;
 }
 
 .box {
