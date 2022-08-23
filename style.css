@@ -344,8 +344,8 @@ video {
 
 .box1  {
   background-image: url(./img/about1-img.jpg);
-  background-repeat:repeat;  
-  background-size: cover, contain;
+  background-repeat:repeat;
+  background-size: cover;
 }
 
 .box2  { 
