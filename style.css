@@ -345,6 +345,7 @@ video {
 
 .box1  {
   background-image: url(./img/about1-img.jpg);
+  opacity: 100%;
 }
 
 .box2  {
