@@ -348,21 +348,23 @@ video {
 }
 
 .box2  {
-  background-image: url(./img/about2-img.jpg);
   animation: fadein 0.6s forwards;
-  animation-delay: 6.6s;
+  animation-delay: 6.6s;  
+  background-image: url(./img/about2-img.jpg);
 }
 
 .box3  {
-  background-image: url(./img/about3-img.jpg);
+
   animation: fadein 0.6s forwards;
   animation-delay: 7.4s;
+  background-image: url(./img/about3-img.jpg);
 }
 
 .box4  {
-  background-image: url(./img/about4-img.jpg);
+
   animation: fadein 0.6s forwards;
   animation-delay: 8.2s;
+  background-image: url(./img/about4-img.jpg);
 }
 
 .about-arrow-btn {
@@ -599,17 +601,6 @@ video {
   {font-size: 4vw;}
 }
 
-.feature4-list {
-  padding-left: 25px;
-}
-
-.feature4-list li a{
-  font-size: 1.5vw;
-}
-
-.feature4-list-italic {
-  font-style: italic;
-}
 
 @media only screen and (max-width: 550px) {.feature4-list li a
   {font-size: 3.2vw;}
@@ -923,7 +914,7 @@ footer h1 {
 .footer-download a {
   text-decoration: none;
   border: 2px solid #fff;
-  border-radius: 12px;
+  border-radius: 20px;
   color: #fff;
 }
 
