@@ -316,8 +316,7 @@ video {
   grid-gap: 4px;
 }
 
-.box {
-  color: #fff; 
+.box { 
   margin: 0px 10px 80px 10px;  
   padding: 20px 7px 10px 7px;
   text-align: center;  
@@ -365,6 +364,9 @@ video {
 }
 
 .box4  {
+  opacity:0;
+  animation: fadein 0.6s forwards;
+  animation-delay: 8.2s;
   background-image: url(./img/about4-img.jpg);
   background-repeat:repeat;  
 }
