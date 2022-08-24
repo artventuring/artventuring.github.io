@@ -82,13 +82,10 @@ html {
 
 .navbar-btn:hover {
   background-color: #d6b976;
-  border:2px solid #d6b976;   
-  transition: 0.3s;
-}
-
-.navbar-btn a:hover {
+  border:2px solid #d6b976;
+  font-style:bold;   
   color: #fff;
-  text-shadow: none;
+  transition: 0.3s;
 }
 
 .navbar-btn:active {
@@ -304,7 +301,7 @@ video {
 
 #about-title {
   margin: 0;
-  padding: 3% 5% 6% 3%;
+  padding: 3% 5% 10% 3%;
   font-size: 50px;
   color: #80b3ff;
   text-align: center;
