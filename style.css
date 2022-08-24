@@ -301,7 +301,7 @@ video {
 
 #about-title {
   margin: 0;
-  padding: 3% 5% 10% 3%;
+  padding: 3% 5%;
   font-size: 50px;
   color: #80b3ff;
   text-align: center;
@@ -315,7 +315,7 @@ video {
 
 .box { 
   margin: 0px 10px 80px 10px;  
-  padding: 20px 7px 10px 7px;
+  padding: 30px 7px 10px 7px;
   text-align: center;  
   color: #fff;
   transition: 0.3s;
