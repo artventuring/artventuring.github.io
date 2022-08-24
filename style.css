@@ -340,12 +340,12 @@ video {
 
 .box:hover {
   transform: scale(1.04);
+  background-position: center;
+  background-size: cover, contain;
 }
 
 .box1  {
   background-image: url(./img/about1-img.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .box2  { 
