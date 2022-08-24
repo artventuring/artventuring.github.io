@@ -344,7 +344,7 @@ video {
 
 .box1  {
   background-image: url(./img/about1-img.jpg);
-  background-repeat:repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -927,6 +927,7 @@ footer h1 {
 .footer-download a:hover {
   color: #6bb0ff;
   background-color: #fff;
+  font-style: bold;
 } 
 
 #footer-credits {
