@@ -358,6 +358,7 @@ video {
   animation: fadein 0.6s forwards;
   animation-delay: 7.4s;
   background-image: url(./img/about3.jpg); 
+  background-size: cover, contain;
 }
 
 .box4  {
@@ -365,6 +366,7 @@ video {
   animation: fadein 0.6s forwards;
   animation-delay: 8.2s;
   background-image: url(./img/about4.jpg);
+  background-size: cover, contain;
 }
 
 .about-arrow-btn {
