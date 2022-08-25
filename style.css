@@ -301,7 +301,7 @@ video {
 
 #about-title {
   margin: 0;
-  padding: 3% 6% 7% 6%;
+  padding: 4% 6% 7% 6%;
   font-size: 50px;
   color: #80b3ff;
   text-align: center;
@@ -314,7 +314,7 @@ video {
 }
 
 .box { 
-  margin: 0px 10px 5px 10px;  
+  margin: 0px 10px 5px 10px;
   padding: 40px 10px 0px 10px;
   text-align: center;  
   color: #fff;
@@ -419,6 +419,12 @@ video {
   {font-size: 4vw;}
 }
 
+.feature1-image {
+  opacity:0;
+  animation: fadein 0.6s forwards;
+  animation-delay: 5s;  
+
+}
 .feature1-list li {
   padding: 5px;
 }
