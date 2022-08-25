@@ -345,6 +345,7 @@ video {
 }
 
 .box1  {
+  padding-top: 3%;
   background-image: url(./img/about1.jpg);
   background-size: cover, contain;
 }
@@ -358,6 +359,7 @@ video {
 }
 
 .box3  {
+  padding-top: 3%;
   opacity:0;
   animation: fadein 0.6s forwards;
   animation-delay: 7.4s;
