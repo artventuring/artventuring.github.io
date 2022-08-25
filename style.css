@@ -350,7 +350,7 @@ video {
 .box2  { 
   opacity:0;
   animation: fadein 0.6s forwards;
-  animation-delay: 6.6s;  
+  animation-delay: 7.6s;  
   background-image: url(./img/about2.jpg);
   background-size: cover, contain;
 }
@@ -358,7 +358,7 @@ video {
 .box3  {
   opacity:0;
   animation: fadein 0.6s forwards;
-  animation-delay: 7.4s;
+  animation-delay: 8.4s;
   background-image: url(./img/about3.jpg); 
   background-size: cover, contain;
 }
@@ -366,7 +366,7 @@ video {
 .box4  {
   opacity:0;
   animation: fadein 0.6s forwards;
-  animation-delay: 8.2s;
+  animation-delay: 9.2s;
   background-image: url(./img/about4.jpg);
   background-size: cover, contain;
 }
@@ -422,9 +422,9 @@ video {
 .feature1-image {
   opacity:0;
   animation: fadein 0.3s forwards;
-  animation-delay: 5s;  
-
+  animation-delay: 13s;  
 }
+
 .feature1-list li {
   padding: 5px;
 }
@@ -479,6 +479,9 @@ video {
 }
 
 #feature2-image {
+  opacity:0;
+  animation: fadein 0.3s forwards;
+  animation-delay: 18s;  
   float: left;
   margin-left: 7%;  
   height: 88%;
@@ -548,6 +551,9 @@ video {
 }
 
 #feature3-image {
+  opacity:0;
+  animation: fadein 0.3s forwards;
+  animation-delay: 23s;  
   float: right;
   margin-top: 3.5%;
   margin-right: 7%;  
@@ -584,6 +590,9 @@ video {
 }
 
 #feature4-image {
+  opacity:0;
+  animation: fadein 0.3s forwards;
+  animation-delay: 28s;  
   float: left;
   margin-top: 5%;
   margin-left: 7%;
