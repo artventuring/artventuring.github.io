@@ -301,7 +301,7 @@ video {
 
 #about-title {
   margin: 0;
-  padding: 5% 6% 7% 6%;
+  padding: 3% 6% 7% 6%;
   font-size: 50px;
   color: #80b3ff;
   text-align: center;
@@ -314,7 +314,7 @@ video {
 }
 
 .box { 
-  margin: 0px 10px 0px 10px;  
+  margin: 0px 10px 5px 10px;  
   padding: 40px 10px 0px 10px;
   text-align: center;  
   color: #fff;
@@ -387,7 +387,7 @@ video {
  **********************************************************************/
 .feature1-container {
   display: flex;
-  margin-top: -8%;
+  margin-top: -5%;
   height: 100vh;
   background: rgb(136,206,252);
   background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%); 
