@@ -422,7 +422,7 @@ video {
 .feature1-image {
   opacity:0;
   animation: fadein 0.3s forwards;
-  animation-delay: 2s;  
+  animation-delay: 5s;  
 
 }
 .feature1-list li {
