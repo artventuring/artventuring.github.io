@@ -302,9 +302,13 @@ video {
 #about-title {
   margin: 0;
   padding: 4% 6% 7% 6%;
-  font-size: 5vw;
+  font-size: 50px;
   color: #80b3ff;
   text-align: center;
+}
+
+@media only screen and (max-width: 550px) {.about-title
+  {font-size: 10vw;}
 }
 
 .grid-wrapper {
@@ -379,14 +383,9 @@ video {
 }
 
 .about-arrow-btn {
-  font-size: 3vw;
+  font-size: 35px;
   text-decoration: none;    
   color: #fff;
-}
-
-
- @media only screen and (max-width: 550px) {.about-arrow-btn
-  {font-size: 6vw;}
 }
 
 /***********************************************************************
