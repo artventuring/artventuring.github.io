@@ -311,11 +311,12 @@ video {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 20px;
-  padding: 3% 3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .box { 
-  margin: 0 7% 2% 2%;
+  margin: 0 2% 2% 2%;
   padding: 7% 2% 0 2%;
   text-align: center;  
   color: #fff;
