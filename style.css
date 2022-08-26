@@ -721,6 +721,7 @@ video {
 #slide3:checked ~ #controls label:nth-last-child(3),
 #slide4:checked ~ #controls label:nth-last-child(2) {
   background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+  opacity: 100%;
   float: left;
   margin-left: 5px;
   display: block;
