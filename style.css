@@ -314,7 +314,7 @@ video {
 }
 
 .box { 
-  margin: 0px 10px 5px 10px;
+  margin: 0px 10px 10px 10px;
   padding: 40px 10px 0px 10px;
   text-align: center;  
   color: #fff;
@@ -419,12 +419,6 @@ video {
   {font-size: 4vw;}
 }
 
-.feature1-image {
-  opacity:0;
-  animation: fadein 0.3s forwards;
-  animation-delay: 13s;  
-}
-
 .feature1-list li {
   padding: 5px;
 }
@@ -479,9 +473,6 @@ video {
 }
 
 #feature2-image {
-  opacity:0;
-  animation: fadein 0.3s forwards;
-  animation-delay: 18s;  
   float: left;
   margin-left: 7%;  
   height: 88%;
@@ -551,9 +542,6 @@ video {
 }
 
 #feature3-image {
-  opacity:0;
-  animation: fadein 0.3s forwards;
-  animation-delay: 23s;  
   float: right;
   margin-top: 3.5%;
   margin-right: 7%;  
@@ -590,9 +578,6 @@ video {
 }
 
 #feature4-image {
-  opacity:0;
-  animation: fadein 0.3s forwards;
-  animation-delay: 28s;  
   float: left;
   margin-top: 5%;
   margin-left: 7%;
