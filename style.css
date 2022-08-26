@@ -340,7 +340,7 @@ video {
 
 .box p {
   font-size: 20px;
-  margin-bottom: 2%;
+  margin-bottom: -3%;
 }    
 
 .box:hover {
