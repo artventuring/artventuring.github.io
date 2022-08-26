@@ -61,6 +61,11 @@ html {
   transition: 0.3s; 
 }
 
+
+@media only screen and (max-width: 550px) {.navbar-main
+ {display: none;}
+}
+
 .navbar-btn {
   display: inline-block;
   margin-top: 9px;
