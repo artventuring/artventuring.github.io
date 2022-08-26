@@ -340,7 +340,7 @@ video {
 
 .box p {
   font-size: 20px;
-  margin-bottom: -3%;
+  padding-bottom: 2%;
 }    
 
 .box:hover {
@@ -380,7 +380,6 @@ video {
   font-size: 35px;
   text-decoration: none;    
   color: #fff;
-  padding-bottom:3%;
 }
 
 
