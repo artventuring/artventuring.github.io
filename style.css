@@ -12,7 +12,7 @@ html {
 }
 
 @font-face {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito-Regular', sans-serif;
   src: url(./Nunito/Nunito-Regular.ttf);
 }
 /***********************************************************************
@@ -350,6 +350,7 @@ video {
   padding-top: 3%;   
   font-size: 28px;
   font-weight: bolder;
+  font-stretch: normal;
 }
 
 .box p {
