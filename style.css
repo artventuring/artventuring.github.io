@@ -312,7 +312,7 @@ video {
   text-align: center;
 }
 
-@media only screen and (max-width: 550px) {.about-title
+@media only screen and (max-width: 550px) {#about-title
   {font-size: 30vw;}
 }
 
@@ -393,6 +393,9 @@ video {
   color: #fff;
 }
 
+ @media only screen and (max-width: 550px) {.about-arrow-btn
+  {font-size: 20vw;}
+}
 /***********************************************************************
  *  FEATURE 1
  **********************************************************************/
