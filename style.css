@@ -591,9 +591,9 @@ video {
   {display: flex;
   padding-top: 5%;
   padding-bottom: 5%;
-  height: 100%;  
   flex-wrap: wrap;
-  justify-content: center;}
+  justify-content: center;
+  height:100vh;}
 }
 
 #feature4-image {
