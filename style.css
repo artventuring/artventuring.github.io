@@ -1,9 +1,8 @@
 @font-face {
-  font-family: 'Nunito-Regular', sans-serif;
+  font-family: 'Nunito', sans-serif;
   src: url(./Nunito/Nunito-Regular.ttf);
 }
 
-@import url(https://fonts.googleapis.com/css?family=Nunito);
 
 html {
   margin: 0 !important;
@@ -398,8 +397,6 @@ video {
 }
 
 .about-arrow-btn {
-  font-family: 'Nunito-Regular', sans-serif;
-  font-weight:100;
   font-size: 35px;
   text-decoration: none;    
   color: #fff;
