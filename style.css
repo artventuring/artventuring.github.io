@@ -354,7 +354,7 @@ video {
   padding-top: 3%;   
   font-size: 28px;
   font-weight: bolder;
-  font-stretch: normal;
+  font-stretch: condensed;
 }
 
 .box p {
@@ -398,8 +398,9 @@ video {
 }
 
 .about-arrow-btn {
-  font-family: 'Nunito', sans-serif;
-    font-size: 35px;
+  font-family: 'Nunito-Regular', sans-serif;
+  font-weight:100;
+  font-size: 35px;
   text-decoration: none;    
   color: #fff;
 }
