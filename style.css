@@ -835,6 +835,8 @@ video {
 }
 
 .download-container h1 {
+  margin-left: 5%;
+  margin-right: 5%;  
   margin-bottom: 0px;    
   font-weight: 700;
   font-size: 40px;    
@@ -842,9 +844,7 @@ video {
 
 #download-sub {
   margin-left: 7%;
-  margin-right: 7%; 
-  padding-left: 2%;
-  padding-right: 2%;        
+  margin-right: 7%;       
   text-align: center;
   font-size: 25px;
   font-weight: lighter;
@@ -945,6 +945,7 @@ footer h1 {
 @media only screen and (max-width: 550px) {.footer-social
   {display: none;}
 }
+
 .footer-download {
   float: right;
 }
@@ -962,6 +963,10 @@ footer h1 {
   background-color: #fff;
   font-style: bold;
 } 
+
+@media only screen and (max-width: 550px) {.footer-download
+  {display: none;}
+}
 
 #footer-credits {
   margin-top: 0;
