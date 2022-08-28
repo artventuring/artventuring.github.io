@@ -438,7 +438,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature1-text h1
-  {padding-top: -5%}
+  {padding-top: -2%}
 }
 
 @media only screen and (max-width: 550px) {.feature1-text
@@ -448,7 +448,8 @@ video {
 }
 
 .feature1-list li {
-  padding: 0px 5px 5px 0px;
+  padding: 5px;
+  padding-inline-start: 0px;
   list-style-position: inside;
 }
 
@@ -514,7 +515,7 @@ video {
   height: 75vw;
   width: auto;
   align-self: center;
-  padding-top: 3%;}
+  padding-top: 5%;}
 }
 
 .feature2-text {
@@ -569,7 +570,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature3-text h1
-  {padding-top: -3%}
+  {padding-top: -10%}
 }
 
 #feature3-image {
@@ -586,7 +587,7 @@ video {
   height: 75vw;
   width: auto;
   align-self: center;
-  padding-top: 3%;}
+  padding-top: 5%;}
 }
 
 /***********************************************************************
@@ -621,7 +622,7 @@ video {
  {margin: 0;  
   height: 75vw;
   width: auto;
-  padding-top: -10%;
+  padding-top: -25%;
   padding-bottom:0;
   align-self: center;}
 }
@@ -635,13 +636,15 @@ video {
   color:#6bb0ff;
 }
 
-@media only screen and (max-width: 550px) {.feature4-text h1
+@media only screen and (max-width: 550px) {.feature4-text
   {font-size: 4vw;
-  padding-top: -10%;
   margin-left: 6%;    
   margin-right: 6%;}
 }
 
+@media only screen and (max-width: 550px) {.feature4-text h1
+  {  padding-top: -25%;}
+}
 
 @media only screen and (max-width: 550px) {.feature4-list li a
   {font-size: 3.2vw;}
