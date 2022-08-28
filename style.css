@@ -423,7 +423,7 @@ video {
   background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%); 
   transform: skewY(4deg);
   color: #fff;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
 @media only screen and (max-width: 550px) {.feature1-container
@@ -640,7 +640,7 @@ video {
   margin-left: 0;  
   height: 75vw;
   width: auto;
-  padding-top: -50%;
+  padding-top: 0;
   padding-bottom:-50%;
   align-self: center;}
 }
@@ -662,12 +662,13 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature4-text h1
-  {padding-top: -90%;}
+  {padding-top: -0;}
 }
 
 @media only screen and (max-width: 550px) {.feature4-list li a
   {font-size: 3.2vw;}
 }
+
 
 /***********************************************************************
  *  TESTIMONIALS
@@ -717,7 +718,6 @@ video {
 
 #overflow {
   width: 100%;
-  overflow: hidden;
 }
 
 #slide1:checked ~ #slides .inner {
@@ -808,7 +808,8 @@ video {
 
 #bullets label {
   display: inline-block;
-  margin: 0 10px;   
+  margin: 0 10px;  
+  margin-bottom: 15%; 
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -838,7 +839,9 @@ video {
 
 @media screen and (max-width:720px) {.slide-content p {
   font-size: 15px;
-  font-style: italic;}
+  font-style: italic;
+  margin-left: 5%;
+  margin-right: 5%; }
 }
 
 @media screen and (max-width: 900px) {
