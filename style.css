@@ -567,7 +567,8 @@ video {
 }
 
 .feature3-list li {
-  padding: 0;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 #feature3-image {
