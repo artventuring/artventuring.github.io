@@ -825,6 +825,10 @@ video {
   scroll-snap-align: start;
 }
 
+@media only screen and (max-width: 550px) {.download-container 
+  {padding-top: 50px;}
+}
+
 #download-brand  {
   padding-top: 5%;
   height: 115px;
