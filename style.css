@@ -609,6 +609,7 @@ video {
  {margin: 0;  
   height: 75vw;
   width: auto;
+  padding-bottom:0;
   align-self: center;}
 }
 
@@ -622,9 +623,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature4-text
-  {font-size: 4vw;
-    margin-top:0;
-    padding-top:0;}
+  {font-size: 4vw;}
 }
 
 
