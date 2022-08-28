@@ -309,6 +309,7 @@ video {
 }
 
 #about-title {
+  margin: 0;
   padding: 4% 6% 7% 6%;
   font-size: 50px;
   color: #80b3ff;
@@ -430,7 +431,6 @@ video {
   transform: skewY(-4deg);
   font-size: 2vw;
 }
-
 
 @media only screen and (max-width: 550px) {.feature1-text
   {padding-top: 50px;
