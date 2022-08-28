@@ -433,7 +433,7 @@ video {
   padding-bottom: 5%;
   flex-wrap: wrap;
   justify-content: center;
-  scroll-snap-align: center;}
+  scroll-snap-align: start;}
 }
 
 .feature1-text {
@@ -645,7 +645,7 @@ video {
   margin-left: 0;  
   height: 75vw;
   width: auto;
-  padding-top: 0;
+  padding-top: 50px;
   padding-bottom: 0;
   align-self: center;}
 }
@@ -821,10 +821,6 @@ video {
   background: #fff;
 }
 
-@media only screen and (max-width: 550px) {#bullets label
-  {padding-top: 25%;}
-}
-
 #slide1:checked ~ #bullets label:nth-child(1),
 #slide2:checked ~ #bullets label:nth-child(2),
 #slide3:checked ~ #bullets label:nth-child(3),
@@ -847,7 +843,7 @@ video {
 }
 
 @media screen and (max-width:720px) {.slide-content p {
-  font-size: 4.5vw;
+  font-size: 5vw;
   font-style: italic;
   margin-left: 5%;
   margin-right: 5%;}
