@@ -416,7 +416,7 @@ video {
   background: linear-gradient(90deg, #88cefc 0%, #96b9ff 38%, #789cff 77%); 
   transform: skewY(4deg);
   color: #fff;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
 
 @media only screen and (max-width: 550px) {.feature1-container
@@ -483,7 +483,7 @@ video {
   align-items: center; 
   background-color: #fff;
   color: #6bb0ff;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
 
 @media only screen and (max-width: 550px) {.feature2-container
@@ -535,7 +535,7 @@ video {
   background: linear-gradient(90deg, rgba(136,206,252,1) 0%, rgba(150,185,255,1) 38%, rgba(120,156,255,1) 88%);
   transform: skewY(-4deg);
   color: #fff;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
 
 @media only screen and (max-width: 550px) {.feature3-container
