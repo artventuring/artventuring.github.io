@@ -521,7 +521,7 @@ video {
   height: 75vw;
   width: auto;
   align-self: center;
-  padding-top: 5%;}
+  padding-top: 10%;}
 }
 
 .feature2-text {
@@ -538,6 +538,10 @@ video {
   margin-right: 6%;}
 }
 
+.feature2-list li {
+  padding-bottom: 5px;
+  padding-inline-start: 0px;
+}
 /***********************************************************************
  *  FEATURE 3
  **********************************************************************/
@@ -578,6 +582,11 @@ video {
 
 @media only screen and (max-width: 550px) {.feature3-text h1
   {padding-top: -30%}
+}
+
+.feature3-list li {
+  padding-bottom: 5px;
+  padding-inline-start: 0px;
 }
 
 #feature3-image {
