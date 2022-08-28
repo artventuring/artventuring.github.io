@@ -649,7 +649,7 @@ video {
   color: #fff;
 }
 
-@media only screen and (max-width: 550px) {.testimonials-container li a
+@media only screen and (max-width: 550px) {.testimonials-container
   {padding-top: 50px;}
 }
 
