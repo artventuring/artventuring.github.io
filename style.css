@@ -36,6 +36,7 @@ ul {
 }
 
 .navbar-brand img {
+  display:flex;
   position: fixed;
   top: 14px;
   left: 14px;
