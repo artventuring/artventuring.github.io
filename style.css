@@ -768,6 +768,10 @@ video {
   z-index: 300;
 }
 
+@media only screen and (max-width: 550px) {#bullets 
+  {padding-top: 10%;}
+}
+
 #controls label {
   display: flex;
   width: 50px;
@@ -791,17 +795,26 @@ video {
   display: block;
 }
 
+@media only screen and (max-width: 550px) {
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide4:checked ~ #controls label:nth-child(1) {
+  margin-right: 5%;}
+}
+
 #slide1:checked ~ #controls label:nth-last-child(1),
 #slide2:checked ~ #controls label:nth-last-child(4),
 #slide3:checked ~ #controls label:nth-last-child(3),
 #slide4:checked ~ #controls label:nth-last-child(2) {
   background: url(./img/left-arrow.png) no-repeat;
+  background-size: cover;
   float: left;
   margin-left: -50px;
   display: block;
 }
 
-@media screen and (max-width:900px) {
+@media only screen and (max-width: 550px) {
 #slide1:checked ~ #controls label:nth-last-child(1),
 #slide2:checked ~ #controls label:nth-last-child(4),
 #slide3:checked ~ #controls label:nth-last-child(3),
