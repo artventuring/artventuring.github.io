@@ -13,6 +13,11 @@ html {
   img {max-width: 100%; height: auto;}
 }
 
+ul {
+    padding: 5px;
+    padding-inline-start: 40px;
+    list-style-position: inside;
+}
 
 /***********************************************************************
  *  NAV BAR
@@ -444,9 +449,6 @@ video {
   margin-right: 6%;}
 }
 
-.feature1-list li {
-  padding: 5px;
-}
 
 .feature1-list-boxes {
   padding: 2px 5px 2px 5px;
@@ -525,10 +527,6 @@ video {
   margin-right: 6%;}
 }
 
-.feature2-list li {
-  padding: 5px;
-}
-
 /***********************************************************************
  *  FEATURE 3
  **********************************************************************/
@@ -566,10 +564,6 @@ video {
   margin-right: 6%;}
 }
 
-.feature3-list li {
-  list-style-position: inside;
-  padding-left: 0;
-}
 
 #feature3-image {
   float: right;
