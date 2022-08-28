@@ -842,7 +842,9 @@ video {
 
 #download-sub {
   margin-left: 7%;
-  margin-right: 7%;        
+  margin-right: 7%; 
+  padding-left: 2%;
+  padding-right: 2%;        
   text-align: center;
   font-size: 25px;
   font-weight: lighter;
@@ -940,6 +942,9 @@ footer h1 {
   width: auto;
 }
 
+@media only screen and (max-width: 550px) {.footer-social
+  {display: none;}
+}
 .footer-download {
   float: right;
 }
