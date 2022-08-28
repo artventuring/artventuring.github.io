@@ -13,6 +13,11 @@ html {
   img {max-width: 100%; height: auto;}
 }
 
+ul {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-inline-start: 0px;
+}
 /***********************************************************************
  *  NAV BAR
  **********************************************************************/
@@ -447,8 +452,8 @@ video {
   margin-right: 6%;}
 }
 
-.feature1-list ul {
-  padding: 5px;
+.feature1-list li {
+  padding-bottom: 5px;
   padding-inline-start: 0px;
 }
 
