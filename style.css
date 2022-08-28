@@ -13,11 +13,6 @@ html {
   img {max-width: 100%; height: auto;}
 }
 
-ul {
-    padding: 5px;
-    list-style-position: inside;
-}
-
 /***********************************************************************
  *  NAV BAR
  **********************************************************************/
@@ -326,7 +321,7 @@ video {
 
 @media only screen and (max-width: 550px) {#about-title
   {font-size: 40px;
-  padding-top: 3%}
+  padding-top: 5%}
 }
 
 .grid-wrapper {
@@ -453,7 +448,8 @@ video {
 }
 
 .feature1-list li {
-  padding: 5px;
+  padding: 0px 5px 5px 0px;
+  list-style-position: inside;
 }
 
 .feature1-list-boxes {
@@ -480,7 +476,8 @@ video {
  {margin: 0;
   height: 75vw;
   width: auto;
-  align-self: center;}
+  align-self: center;
+  padding-top: 5%;}
 }
 
 /***********************************************************************
@@ -572,7 +569,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature3-text h1
-  {padding-top: -5%}
+  {padding-top: -3%}
 }
 
 #feature3-image {
@@ -588,7 +585,8 @@ video {
  {margin: 0;
   height: 75vw;
   width: auto;
-  align-self: center;}
+  align-self: center;
+  padding-top: 3%;}
 }
 
 /***********************************************************************
@@ -623,7 +621,7 @@ video {
  {margin: 0;  
   height: 75vw;
   width: auto;
-  padding-top: -5%;
+  padding-top: -10%;
   padding-bottom:0;
   align-self: center;}
 }
@@ -637,8 +635,9 @@ video {
   color:#6bb0ff;
 }
 
-@media only screen and (max-width: 550px) {.feature4-text
+@media only screen and (max-width: 550px) {.feature4-text h1
   {font-size: 4vw;
+  padding-top: -10%;
   margin-left: 6%;    
   margin-right: 6%;}
 }
