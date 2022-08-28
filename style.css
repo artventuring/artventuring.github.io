@@ -569,7 +569,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature3-text h1
-  {padding-top: -10%}
+  {padding-top: -30%}
 }
 
 #feature3-image {
@@ -586,7 +586,8 @@ video {
   height: 75vw;
   width: auto;
   align-self: center;
-  padding-top: 5%;}
+  padding-top: 5%;
+  padding-bottom: 5%;}
 }
 
 /***********************************************************************
@@ -621,7 +622,7 @@ video {
  {margin: 0;  
   height: 75vw;
   width: auto;
-  padding-top: -25%;
+  padding-top: -35%;
   padding-bottom:0;
   align-self: center;}
 }
@@ -642,7 +643,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature4-text h1
-  {  padding-top: -25%;}
+  {padding-top: -90%;}
 }
 
 @media only screen and (max-width: 550px) {.feature4-list li a
