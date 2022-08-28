@@ -446,7 +446,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature1-text h1
-  {padding-top: -3%}
+  {padding-top: -5%}
 }
 
 @media only screen and (max-width: 550px) {.feature1-text
@@ -785,6 +785,7 @@ video {
 #slide3:checked ~ #controls label:nth-child(4),
 #slide4:checked ~ #controls label:nth-child(1) {
   background: url(./img/right-arrow.png) no-repeat;
+  background-size: cover;
   float: right;
   margin-right: -50px;
   display: block;
