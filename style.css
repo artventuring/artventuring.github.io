@@ -641,7 +641,7 @@ video {
   height: 75vw;
   width: auto;
   padding-top: 0;
-  padding-bottom:-50%;
+  padding-bottom:0%;
   align-self: center;}
 }
 
@@ -841,7 +841,7 @@ video {
   font-size: 15px;
   font-style: italic;
   margin-left: 5%;
-  margin-right: 5%; }
+  margin-right: 5%;}
 }
 
 @media screen and (max-width: 900px) {
