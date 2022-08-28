@@ -834,6 +834,14 @@ video {
   height: 115px;
 }
 
+#ar-text {
+  margin-bottom: 0;
+}
+
+#t-text {
+  margin-bottom: 0;
+}
+
 .download-container h1 {
   margin-left: 5%;
   margin-right: 5%;  
@@ -942,7 +950,7 @@ footer h1 {
   width: auto;
 }
 
-@media only screen and (max-width: 550px) {.footer-social
+@media only screen and (max-width: 700px) {.footer-social
   {display: none;}
 }
 
@@ -964,7 +972,7 @@ footer h1 {
   font-style: bold;
 } 
 
-@media only screen and (max-width: 550px) {.footer-download
+@media only screen and (max-width: 400px) {.footer-download
   {display: none;}
 }
 
