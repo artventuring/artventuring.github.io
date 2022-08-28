@@ -439,7 +439,9 @@ video {
 
 
 @media only screen and (max-width: 550px) {.feature1-text
-  {font-size: 4vw;}
+  {font-size: 4vw;
+  margin-left: 6%;    
+  margin-right: 6%;}
 }
 
 .feature1-list li {
@@ -518,7 +520,9 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature2-text
-  {font-size: 4vw;}
+  {font-size: 4vw;
+  margin-left: 6%;    
+  margin-right: 6%;}
 }
 
 .feature2-list li {
@@ -561,7 +565,9 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature3-text
-  {font-size: 4vw;}
+  {font-size: 4vw;
+  margin-left: 6%;    
+  margin-right: 6%;}
 }
 
 #feature3-image {
@@ -626,7 +632,9 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature4-text
-  {font-size: 4vw;}
+  {font-size: 4vw;
+  margin-left: 6%;    
+  margin-right: 6%;}
 }
 
 
