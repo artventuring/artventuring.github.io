@@ -718,6 +718,7 @@ video {
 
 #overflow {
   width: 100%;
+  overflow: hidden;
 }
 
 #slide1:checked ~ #slides .inner {
@@ -809,11 +810,14 @@ video {
 #bullets label {
   display: inline-block;
   margin: 0 10px;  
-  margin-bottom: 15%; 
   width: 10px;
   height: 10px;
   border-radius: 100%;
   background: #fff;
+}
+
+@media only screen and (max-width: 550px) {#bullets label
+  {margin-bottom: 15%;}
 }
 
 #slide1:checked ~ #bullets label:nth-child(1),
