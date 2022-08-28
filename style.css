@@ -876,8 +876,9 @@ video {
   #slide1:checked ~ #controls label:nth-last-child(2),
   #slide2:checked ~ #controls label:nth-last-child(3),
   #slide3:checked ~ #controls label:nth-last-child(4),
-  #slide4:checked ~ #controls label:nth-last-child(1) {
-    margin: 0;}
+  #slide4:checked ~ #controls label:nth-last-child(1)
+}
+
   #slides {
     max-width: calc(100% - 140px);
     margin: 0 auto;}
