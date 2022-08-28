@@ -560,14 +560,15 @@ video {
   transform: skewY(4deg);
 }
 
-.feature3-list li {
-  padding: 5px;
-}
-
 @media only screen and (max-width: 550px) {.feature3-text
   {font-size: 4vw;
   margin-left: 6%;    
   margin-right: 6%;}
+}
+
+.feature3-list li {
+  padding: 5px;
+  margin: 0;
 }
 
 #feature3-image {
