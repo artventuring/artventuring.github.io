@@ -642,7 +642,8 @@ video {
 
 @media only screen and (max-width: 550px) {#feature4-image
  {margin-top: 0;
-  margin-left: 0;  
+  margin-left: 0;
+  margin-bottom: -20px;  
   height: 75vw;
   width: auto;
   padding-top: 50px;
@@ -819,6 +820,10 @@ video {
   height: 10px;
   border-radius: 100%;
   background: #fff;
+}
+
+@media only screen and (max-width: 550px) {#bullets 
+  {padding-top: 25%;}
 }
 
 #slide1:checked ~ #bullets label:nth-child(1),
