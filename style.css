@@ -571,6 +571,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature3-text
   {font-size: 4vw;
+  margin-top: 0;
   margin-left: 6%;    
   margin-right: 6%;}
 }
@@ -626,7 +627,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {#feature4-image
- {margin: 0;  
+ {margin-top: 0;  
   height: 75vw;
   width: auto;
   padding-top: -50%;
@@ -645,6 +646,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature4-text
   {font-size: 4vw;
+  margin-top: 0;
   margin-left: 6%;    
   margin-right: 6%;}
 }
