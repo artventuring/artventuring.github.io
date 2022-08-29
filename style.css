@@ -888,6 +888,7 @@ video {
  *  DOWNLOAD
  **********************************************************************/
 .download-container {
+  height: 100vh;
   text-align: center;             
   background-color: #fff;
   scroll-snap-align: start;
@@ -945,10 +946,11 @@ video {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-  padding: 2%;
 }
 
-.download-buttons img {       
+.download-buttons img {
+  padding-left: 2%;       
+  padding-right: 2%;
   height: 49px;
   width: 160px;            
 }
