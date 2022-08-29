@@ -943,25 +943,11 @@ video {
   color: #6bb0ff;
 }
 
-.download-buttons {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-}
-
 .download-buttons img {
+  padding-left: 2%;
+  padding-right: 2%;        
   height: 49px;
-  width: 160px;            
-}
-
-#app-store-now {
-  padding-left: 2%;       
-  padding-right: 2%;
-}
-
-#google-play-now {
-    padding-left: 2%;       
-  padding-right: 2%;
+  width: 160px;
 }
 
 #download-social-media {
