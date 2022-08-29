@@ -888,7 +888,7 @@ video {
  *  DOWNLOAD
  **********************************************************************/
 #download-container {
-  height: 100vh;
+  height: 100%;
   text-align: center;             
   background-color: #fff;
   color: #6bb0ff;
@@ -943,14 +943,12 @@ video {
 }
 
 .download-buttons img {
-  display: block;
+  display: inline-flex;
   margin-top:5%;
   padding-left: 2%;
   padding-right: 2%;        
   height: 49px;
   width: 160px;            
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #download-social-media {
