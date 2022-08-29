@@ -887,14 +887,14 @@ video {
 /***********************************************************************
  *  DOWNLOAD
  **********************************************************************/
-.download-part {
-  height: 100vh;  
-  text-align: center;             
+.download-container {
+  height: 100vh;    
+  text-align: center;        
   background-color: #fff;
   scroll-snap-align: start;
 }
 
-@media only screen and (max-width: 550px) {.download-part 
+@media only screen and (max-width: 550px) {.download-container 
   {padding-top: 50px;
   scroll-snap-align: start;}
 }
