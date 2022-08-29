@@ -887,7 +887,7 @@ video {
 /***********************************************************************
  *  DOWNLOAD
  **********************************************************************/
-.download-container {
+#download-container {
   height: 100vh;
   text-align: center;             
   background-color: #fff;
@@ -902,7 +902,7 @@ video {
 #download-brand  {
   padding-top: 5%;
   height: 115px;
-  text-align: center;             
+  align-items: center;             
 }
 
 @media only screen and (max-width: 550px) {#download-brand
@@ -945,8 +945,8 @@ video {
   padding-left: 2%;
   padding-right: 2%;        
   height: 49px;
-  width: 160px;
-  text-align: center;             
+  width: 160px;            
+  align-items: center;
 }
 
 #download-social-media {
