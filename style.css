@@ -888,8 +888,7 @@ video {
  *  DOWNLOAD
  **********************************************************************/
 .download-container {
-  height: 100vh;
-  text-align: center;             
+  height: 100vh;            
   background-color: #fff;
   scroll-snap-align: start;
 }
