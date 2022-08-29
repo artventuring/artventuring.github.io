@@ -446,7 +446,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature1-text h1
-  {padding-top: -5%}
+  {padding-top: -7%}
 }
 
 @media only screen and (max-width: 550px) {.feature1-text
@@ -902,10 +902,6 @@ video {
 #download-brand  {
   padding-top: 5%;
   height: 115px;
-}
-
-@media only screen and (max-width: 550px) {#download-brand
-  {padding-top: 1%}
 }
 
 #ar-text {
