@@ -942,9 +942,14 @@ video {
   color: #6bb0ff;
 }
 
-.download-buttons img {
-  display: inline-flex;
+
+.download-buttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;            
   margin-top:5%;
+}
+.download-buttons img {
   padding-left: 2%;
   padding-right: 2%;        
   height: 49px;
