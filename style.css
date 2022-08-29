@@ -892,7 +892,7 @@ video {
   text-align: center;             
   background-color: #fff;
   color: #6bb0ff;
-  scroll-snap-align: start;
+  scroll-snap-align: end;
 }
 
 @media only screen and (max-width: 550px) {.download-container 
@@ -951,16 +951,8 @@ video {
 
 .download-buttons img {
   height: 49px;
-  width: 160px;            
-}
-
-#app-store-now {
+  width: 160px;
   padding-left: 5%;       
-  padding-right: 5%;
-}
-
-#google-play-now {
-    padding-left: 5%;       
   padding-right: 5%;
 }
 
