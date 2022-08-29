@@ -896,7 +896,8 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.download-container 
-  {padding-top: 50px;}
+  {padding-top: 50px;
+  scroll-snap-align: start;}
 }
 
 #download-brand  {
@@ -944,7 +945,9 @@ video {
 
 .download-buttons {
   justify-content: center;
-  margin-top:5%; 
+  margin-top:5%;
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .download-buttons img {
