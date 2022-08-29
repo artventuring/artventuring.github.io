@@ -446,7 +446,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature1-text h1
-  {padding-top: -7%}
+  {padding-top: -15%}
 }
 
 @media only screen and (max-width: 550px) {.feature1-text
@@ -625,7 +625,7 @@ video {
 }
 
 @media only screen and (max-width: 550px) {.feature4-container
-  {display: block;
+  {display: flex;
   padding-bottom: 5%;
   flex-wrap: wrap;
   justify-content: center;
@@ -902,6 +902,11 @@ video {
 #download-brand  {
   padding-top: 5%;
   height: 115px;
+  text-align: center;             
+}
+
+@media only screen and (max-width: 550px) {#download-brand
+  {padding-top: 1%}
 }
 
 #ar-text {
@@ -920,7 +925,9 @@ video {
   margin-right: 5%;  
   margin-bottom: 0px;    
   font-weight: 700;
-  font-size: 40px;    
+  font-size: 40px;
+  text-align: center;             
+  color: #6bb0ff;
 }
 
 #download-sub {
@@ -939,6 +946,7 @@ video {
   padding-right: 2%;        
   height: 49px;
   width: 160px;
+  text-align: center;             
 }
 
 #download-social-media {
