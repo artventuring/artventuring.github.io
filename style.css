@@ -944,6 +944,7 @@ video {
 }
 
 .download-buttons {
+  display: flex;
   justify-content: center;
   margin-top:5%;
   margin-left: auto;
