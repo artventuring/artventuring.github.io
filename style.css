@@ -107,6 +107,7 @@ ul {
 
 .navbar-btn a :hover {
   color: #fff;
+  font-style: bold;
 } 
 
 .navbar-btn:active {
@@ -119,6 +120,7 @@ ul {
 
 .navbar-btn a:active {
   color: #d6b976;
+  font-style: bold;
 }
 
 /***********************************************************************
