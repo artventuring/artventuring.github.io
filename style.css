@@ -97,12 +97,9 @@ ul {
 
 .navbar-btn:hover {
   background-color: #d6b976;
-  border:2px solid #d6b976;
-  font-weight: 900;   
+  border:2px solid #d6b976; 
   color: #fff;
-  font-weight: 900;
   transition: 0.3s;
-  opacity: 100%;
 }
 
 .navbar-btn a:hover {
@@ -113,7 +110,6 @@ ul {
 .navbar-btn:active {
   border: 2px solid #fff;
   color: #d6b976;
-  font-weight: 900;
   background-color: #fff;
   transition: 0.3s;
 }
