@@ -891,14 +891,15 @@ video {
  *  DOWNLOAD
  **********************************************************************/
 .download-container {
-  height: 110vh;
+  height: 100vh;
   text-align: center;             
   background-color: #fff;
   color: #6bb0ff;
 }
 
 @media only screen and (min-width: 550px) {.download-container 
-  {scroll-snap-align: start;}
+  {scroll-snap-align: start;
+  height:100vh;}
 }
 
 @media only screen and (max-width: 550px) {.download-container 
