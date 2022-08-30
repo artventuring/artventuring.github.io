@@ -37,7 +37,6 @@ ul {
 }
 
 .navbar-brand img {
-  display:flex;
   position: fixed;
   top: 14px;
   left: 14px;
@@ -69,17 +68,14 @@ ul {
 }
 
 .navbar-main a:active {
+  text-shadow: 2px 2px 3px #000;
   transition: 0.3s; 
-}
-
-@media only screen and (max-width: 550px) {.navbar-main
- {display: none;}
 }
 
 .navbar-btn {
   display: inline-block;
   margin-top: 9px;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-bottom: 100px;
   padding: 9px !important;    
   background-color: transparent;
@@ -97,29 +93,24 @@ ul {
 
 .navbar-btn:hover {
   background-color: #d6b976;
-  border:2px solid #d6b976;
-  font-weight: 900;   
-  color: #fff;
+  border:2px solid #d6b976;   
   transition: 0.3s;
-  opacity: 100%;
 }
 
 .navbar-btn a:hover {
   color: #fff;
-  font-weight: 900;
-} 
+  text-shadow: none;
+}
 
 .navbar-btn:active {
   border: 2px solid #fff;
   color: #d6b976;
-  font-weight: 900;
   background-color: #fff;
   transition: 0.3s;
 }
 
 .navbar-btn a:active {
   color: #d6b976;
-  font-weight: 900;
 }
 
 /***********************************************************************
