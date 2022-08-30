@@ -892,7 +892,8 @@ video {
   text-align: center;             
   background-color: #fff;
   color: #6bb0ff;
-  scroll-snap-align: end;
+  scroll-snap-align: start;
+  scroll-snap-type: y mandatory;
 }
 
 @media only screen and (max-width: 550px) {.download-container 
@@ -952,8 +953,8 @@ video {
 .download-buttons img {
   height: 49px;
   width: 160px;
-  padding-left: 5%;       
-  padding-right: 5%;
+  padding-left: 10px;       
+  padding-right: 10px;
 }
 
 #download-social-media {
