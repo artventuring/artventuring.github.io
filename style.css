@@ -19,6 +19,7 @@ ul {
   padding-inline-start: 0px;
   list-style-position: inside;
 }
+
 /***********************************************************************
  *  NAV BAR
  **********************************************************************/
@@ -412,6 +413,7 @@ video {
  @media only screen and (max-width: 550px) {.about-arrow-btn
   {font-size: 10vw;}
 }
+
 /***********************************************************************
  *  FEATURE 1
  **********************************************************************/
@@ -546,8 +548,9 @@ video {
 
 .feature2-list li {
   padding-bottom: 5px;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }
+
 /***********************************************************************
  *  FEATURE 3
  **********************************************************************/
@@ -592,7 +595,7 @@ video {
 
 .feature3-list li {
   padding-bottom: 5px;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
 }
 
 #feature3-image {
@@ -657,7 +660,7 @@ video {
   margin-right: 7%;
   align-self: center;  
   font-size: 2vw;
-  color:#6bb0ff;
+  color: #6bb0ff;
 }
 
 @media only screen and (max-width: 550px) {.feature4-text
@@ -777,7 +780,7 @@ video {
   width: 50px;
   height: 50px;
   transition: opacity 0.2s ease-out;   
-  opacity: 0.4;
+  opacity: 40%;
 }
 
 #controls label:hover {
@@ -888,7 +891,7 @@ video {
  *  DOWNLOAD
  **********************************************************************/
 .download-container {
-  height: 100vh;
+  height: 110vh;
   text-align: center;             
   background-color: #fff;
   color: #6bb0ff;
@@ -929,7 +932,7 @@ video {
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;  
-  margin-bottom: 0px;    
+  margin-bottom: 0;    
   font-weight: 700;
   font-size: 40px;
   text-align: center;             
