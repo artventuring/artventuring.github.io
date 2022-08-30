@@ -888,12 +888,14 @@ video {
  *  DOWNLOAD
  **********************************************************************/
 .download-container {
-  height: 100vw;
+  height: 100vh;
   text-align: center;             
   background-color: #fff;
   color: #6bb0ff;
   scroll-snap-align: start;
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  scroll-margin: 0;
 }
 
 @media only screen and (max-width: 550px) {.download-container 
