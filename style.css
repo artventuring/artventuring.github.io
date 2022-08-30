@@ -78,7 +78,9 @@ ul {
 }
 
 .navbar-btn {
-  display: inline-block;
+  display: flex;
+  right: 0%;
+  text-align: center;  
   margin-top: 9px;
   margin-right: 20px;
   margin-bottom: 100px;
@@ -94,7 +96,7 @@ ul {
   color: #ffe5a8;
   text-decoration: none;
   z-index: 766;
-} 
+}
 
 .navbar-btn:hover {
   background-color: #d6b976;
@@ -108,7 +110,7 @@ ul {
 .navbar-btn a:hover {
   color: #fff;
   font-weight: 900;
-} 
+}
 
 .navbar-btn:active {
   border: 2px solid #fff;
