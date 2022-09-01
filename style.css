@@ -626,7 +626,7 @@ video {
   display: flex;    
   height: 95vh;
   background-color: #fff;
-  color: #6bb0ff;
+  color: #094CD1;
   scroll-snap-align: start;
 }
 
@@ -663,7 +663,7 @@ video {
   margin-right: 7%;
   align-self: center;  
   font-size: 2vw;
-  color: #6bb0ff;
+  color: #094CD1;
 }
 
 @media only screen and (max-width: 550px) {.feature4-text
