@@ -425,7 +425,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #357AEB 0%, #4585ED 38%, #8BAEFF 77%); 
+  background: linear-gradient(90deg, #357AEB 0%, #4585ED 38%, #75A0FF 77%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
