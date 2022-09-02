@@ -505,7 +505,7 @@ video {
   padding-bottom: 0.5%;
   align-items: center; 
   background-color: #fff;
-  color: #2C78F4;
+  color: #1F74E5;
   scroll-snap-align: start;
 }
 
@@ -538,7 +538,7 @@ video {
   margin-left: 5%;
   margin-right: 7%;
   font-size: 2vw;
-  color: #2C78F4;
+  color: #1F74E5;
 }
 
 @media only screen and (max-width: 550px) {.feature2-text
@@ -629,7 +629,7 @@ video {
   display: flex;    
   height: 95vh;
   background-color: #fff;
-  color: #2C78F4;
+  color: #1F74E5;
   scroll-snap-align: start;
 }
 
@@ -666,7 +666,7 @@ video {
   margin-right: 7%;
   align-self: center;  
   font-size: 2vw;
-  color: #2C78F4;
+  color: #1F74E5;
 }
 
 @media only screen and (max-width: 550px) {.feature4-text
@@ -900,7 +900,7 @@ video {
   height: 100vh;
   text-align: center;             
   background-color: #fff;
-  color: #2C78F4;
+  color: #1F74E5;
 }
 
 @media only screen and (min-width: 550px) {.download-container 
@@ -943,7 +943,7 @@ video {
   font-weight: 700;
   font-size: 40px;
   text-align: center;             
-  color: #2C78F4;
+  color: #1F74E5;
 }
 
 #download-sub {
@@ -953,7 +953,7 @@ video {
   font-size: 25px;
   font-weight: lighter;
   font-style: italic;
-  color: #2C78F4;
+  color: #1F74E5;
 }
 
 .download-buttons {
@@ -984,7 +984,7 @@ video {
 footer {
   height: 45vh;
   color: #fff;
-  background-color: #6bb0ff;
+  background-color: #2C78F4;
   list-style: none;
   scroll-snap-align: start;
 }
@@ -1069,9 +1069,9 @@ footer h1 {
 }
 
 .footer-download a:hover {
-  color: #6bb0ff;
+  color: #2C78F4;
   background-color: #fff;
-  font-style: bold;
+  font-weight: 900;
 } 
 
 @media only screen and (max-width: 400px) {.footer-download
