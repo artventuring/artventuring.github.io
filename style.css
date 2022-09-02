@@ -425,7 +425,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #595CE9 0%, #0765E3 60%, #0045D0 80%); 
+  background: linear-gradient(90deg, #595CE9 0%, #0765E3 20%, #0045D0 70%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
@@ -433,7 +433,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature1-container
  {display: flex;
-  background: linear-gradient(#117AED 0%, #438FFF 38%, #8BA7FF 77%); 
+  background: linear-gradient(#595CE9 0%, #0765E3 20%, #0045D0 70%); 
   transform: skewY(4deg);
   height: 100%;
   padding-top: 50px;
@@ -538,7 +538,7 @@ video {
   margin-left: 5%;
   margin-right: 7%;
   font-size: 2vw;
-  color: #0765E3;
+  color: #117AED;
 }
 
 @media only screen and (max-width: 550px) {.feature2-text
@@ -899,7 +899,7 @@ video {
   height: 100vh;
   text-align: center;             
   background-color: #fff;
-  color: #6bb0ff;
+  color: #117AED;
 }
 
 @media only screen and (min-width: 550px) {.download-container 
@@ -942,7 +942,7 @@ video {
   font-weight: 700;
   font-size: 40px;
   text-align: center;             
-  color: #6bb0ff;
+  color: #117AED;
 }
 
 #download-sub {
@@ -952,7 +952,7 @@ video {
   font-size: 25px;
   font-weight: lighter;
   font-style: italic;
-  color: #6bb0ff;
+  color: #117AED;
 }
 
 .download-buttons {
