@@ -425,7 +425,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #0B49C5 0%, #2C78F4 45%, #6C82EE 70%); 
+  background: linear-gradient(90deg, #0B49C5 0%, #2C78F4 45%, #6C82EE 75%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
@@ -433,7 +433,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature1-container
  {display: flex;
-  background: linear-gradient(#0B49C5 0%, #2C78F4 45%, #6C82EE 70%); 
+  background: linear-gradient(#0B49C5 0%, #2C78F4 45%, #6C82EE 75%); 
   transform: skewY(4deg);
   height: 100%;
   padding-top: 50px;
@@ -563,7 +563,7 @@ video {
   display: flex;
   height: 95vh;
   background: rgb(136,206,252);
-  background: linear-gradient(90deg, #0B49C5 0%, #2C78F4 45%, #6C82EE 70%);
+  background: linear-gradient(90deg, #0B49C5 0%, #2C78F4 45%, #6C82EE 75%);
   transform: skewY(-4deg);
   color: #fff;
   scroll-snap-align: start;
@@ -573,7 +573,7 @@ video {
  {display: flex;
   padding-top: 50px;
   padding-bottom: 5%;
-  background: linear-gradient(#0B49C5 0%, #2C78F4 45%, #6C82EE 70%); 
+  background: linear-gradient(#0B49C5 0%, #2C78F4 45%, #6C82EE 75%); 
   height: 100%;  
   flex-wrap: wrap;
   justify-content: center;}
@@ -1063,14 +1063,15 @@ footer h1 {
 .footer-download a {
   text-decoration: none;
   padding: 9px;
+  color: #2C78F4;
+  background-color: #fff;
   border: 2px solid #fff;
   border-radius: 12px;
-  color: #fff;
 }
 
 .footer-download a:hover {
-  color: #2C78F4;
-  background-color: #fff;
+  color: #FFF;
+  background-color: #2C78F4;
   font-weight: 900;
 } 
 
