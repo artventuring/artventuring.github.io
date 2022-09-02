@@ -903,7 +903,7 @@ video {
   height: 100vh;
   text-align: center;             
   background-color: #fff;
-  color: #117AED;
+  color: #2C78F4;
 }
 
 @media only screen and (min-width: 550px) {.download-container 
@@ -946,7 +946,7 @@ video {
   font-weight: 700;
   font-size: 40px;
   text-align: center;             
-  color: #117AED;
+  color: #2C78F4;
 }
 
 #download-sub {
@@ -956,7 +956,7 @@ video {
   font-size: 25px;
   font-weight: lighter;
   font-style: italic;
-  color: #117AED;
+  color: #2C78F4;
 }
 
 .download-buttons {
