@@ -425,7 +425,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #0049DA 0%, #0765E3 38%, #4B65E7 77%); 
+  background: linear-gradient(90deg, #595CE9 0%, #0765E3 38%, #0045D0 77%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
@@ -505,7 +505,7 @@ video {
   padding-bottom: 0.5%;
   align-items: center; 
   background-color: #fff;
-  color: #357AEB;
+  color: #117AED;
   scroll-snap-align: start;
 }
 
@@ -628,7 +628,7 @@ video {
   display: flex;    
   height: 95vh;
   background-color: #fff;
-  color: #094CD1;
+  color: #117AED;
   scroll-snap-align: start;
 }
 
@@ -665,7 +665,7 @@ video {
   margin-right: 7%;
   align-self: center;  
   font-size: 2vw;
-  color: #094CD1;
+  color: #117AED;
 }
 
 @media only screen and (max-width: 550px) {.feature4-text
