@@ -429,7 +429,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #595CE9 0%, #0765E3 65%, #0045D0 85%); 
+  background: linear-gradient(90deg, #0045D0 0%, #0765E3 65%, #595CE9 85%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
@@ -437,7 +437,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature1-container
  {display: flex;
-  background: linear-gradient(#595CE9 0%, #0765E3 65%, #0045D0 75%); 
+  background: linear-gradient(#0045D0 0%, #0765E3 65%, #595CE9 75%); 
   transform: skewY(4deg);
   height: 100%;
   padding-top: 50px;
