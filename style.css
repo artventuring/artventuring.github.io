@@ -425,7 +425,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #357AEB 0%, #4585ED 38%, #75A0FF 77%); 
+  background: linear-gradient(90deg, #0049DA 0%, #348BFE 38%, #8BA7FF 77%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
@@ -536,7 +536,7 @@ video {
   margin-left: 5%;
   margin-right: 7%;
   font-size: 2vw;
-  color: #357AEB;
+  color: #0049DA;
 }
 
 @media only screen and (max-width: 550px) {.feature2-text
