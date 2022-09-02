@@ -425,7 +425,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #595CE9 0%, #0765E3 38%, #0045D0 77%); 
+  background: linear-gradient(90deg, #595CE9 0%, #0765E3 45%, #0045D0 75%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
@@ -563,7 +563,7 @@ video {
   display: flex;
   height: 95vh;
   background: rgb(136,206,252);
-  background: linear-gradient(90deg, rgba(136,206,252,1) 0%, rgba(150,185,255,1) 38%, rgba(120,156,255,1) 88%);
+  background: linear-gradient(90deg, #595CE9 0%, #0765E3 45%, #0045D0 75%);
   transform: skewY(-4deg);
   color: #fff;
   scroll-snap-align: start;
@@ -606,7 +606,7 @@ video {
 #feature3-image {
   float: right;
   margin-top: 3.5%;
-  margin-right: 7%;  
+  margin-right: 0;  
   height: 88%;
   width: auto;  
   transform: skewY(4deg);
