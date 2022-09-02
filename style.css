@@ -433,7 +433,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature1-container
  {display: flex;
-  background: linear-gradient(#0049DA 0%, #348BFE 38%, #8BA7FF 77%); 
+  background: linear-gradient(#117AED 0%, #438FFF 38%, #8BA7FF 77%); 
   transform: skewY(4deg);
   height: 100%;
   padding-top: 50px;
@@ -538,7 +538,7 @@ video {
   margin-left: 5%;
   margin-right: 7%;
   font-size: 2vw;
-  color: #0049DA;
+  color: #117AED;
 }
 
 @media only screen and (max-width: 550px) {.feature2-text
