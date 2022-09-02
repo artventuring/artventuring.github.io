@@ -45,10 +45,6 @@ ul {
   width: auto;
 }
 
-@media only screen and (max-width: 550px) {.navbar-brand img
- {display: none;}
-}
-
 .navbar-main {
   display: flex;
   right: 0%;
@@ -437,7 +433,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature1-container
  {display: flex;
-  background: linear-gradient(#0765E3 0%, #2C78F4 65%, #7585FF 75%); 
+  background: linear-gradient(#0B49C5 0%, #2C78F4 45%, #6C82EE 70%); 
   transform: skewY(4deg);
   height: 100%;
   padding-top: 50px;
@@ -567,7 +563,7 @@ video {
   display: flex;
   height: 95vh;
   background: rgb(136,206,252);
-  background: linear-gradient(90deg, #595CE9 0%, #0765E3 60%, #0045D0 80%);
+  background: linear-gradient(90deg, #0B49C5 0%, #2C78F4 45%, #6C82EE 70%);
   transform: skewY(-4deg);
   color: #fff;
   scroll-snap-align: start;
@@ -577,6 +573,7 @@ video {
  {display: flex;
   padding-top: 50px;
   padding-bottom: 5%;
+  background: linear-gradient(#0B49C5 0%, #2C78F4 45%, #6C82EE 70%); 
   height: 100%;  
   flex-wrap: wrap;
   justify-content: center;}
