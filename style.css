@@ -429,7 +429,7 @@ video {
   margin-top: -5%;
   height: 100vh;
   background: #6BB0FF;
-  background: linear-gradient(90deg, #0045D0 0%, #0765E3 65%, #595CE9 85%); 
+  background: linear-gradient(90deg, #0765E3 0%, #2C78F4 65%, #7585FF 85%); 
   transform: skewY(4deg);
   color: #fff;
   scroll-snap-align: center;
@@ -437,7 +437,7 @@ video {
 
 @media only screen and (max-width: 550px) {.feature1-container
  {display: flex;
-  background: linear-gradient(#0045D0 0%, #0765E3 65%, #595CE9 75%); 
+  background: linear-gradient(#0765E3 0%, #2C78F4 65%, #7585FF 75%); 
   transform: skewY(4deg);
   height: 100%;
   padding-top: 50px;
@@ -509,7 +509,7 @@ video {
   padding-bottom: 0.5%;
   align-items: center; 
   background-color: #fff;
-  color: #2577FB;
+  color: #2C78F4;
   scroll-snap-align: start;
 }
 
@@ -542,7 +542,7 @@ video {
   margin-left: 5%;
   margin-right: 7%;
   font-size: 2vw;
-  color: #2577FB;
+  color: #2C78F4;
 }
 
 @media only screen and (max-width: 550px) {.feature2-text
@@ -632,7 +632,7 @@ video {
   display: flex;    
   height: 95vh;
   background-color: #fff;
-  color: #117AED;
+  color: #2C78F4;
   scroll-snap-align: start;
 }
 
@@ -669,7 +669,7 @@ video {
   margin-right: 7%;
   align-self: center;  
   font-size: 2vw;
-  color: #117AED;
+  color: #2C78F4;
 }
 
 @media only screen and (max-width: 550px) {.feature4-text
