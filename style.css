@@ -433,6 +433,8 @@ video {
 
 @media only screen and (max-width: 550px) {.feature1-container
  {display: flex;
+  background: linear-gradient(#0049DA 0%, #348BFE 38%, #8BA7FF 77%); 
+  transform: skewY(4deg);
   height: 100%;
   padding-top: 50px;
   padding-bottom: 5%;
