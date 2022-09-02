@@ -509,7 +509,7 @@ video {
   padding-bottom: 0.5%;
   align-items: center; 
   background-color: #fff;
-  color: #117AED;
+  color: #2577FB;
   scroll-snap-align: start;
 }
 
@@ -542,7 +542,7 @@ video {
   margin-left: 5%;
   margin-right: 7%;
   font-size: 2vw;
-  color: #117AED;
+  color: #2577FB;
 }
 
 @media only screen and (max-width: 550px) {.feature2-text
