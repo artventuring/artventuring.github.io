@@ -379,7 +379,7 @@ video {
 }
 
 .box1  {
-  background-image: url(./img/about1.jpg);
+  background-image: url(./img/artventuring-about-1-enjoy-local-art.jpg);
   background-size: cover, contain;
 }
 
@@ -387,7 +387,7 @@ video {
   opacity:0;
   animation: fadein 0.6s forwards;
   animation-delay: 7.6s;  
-  background-image: url(./img/about2.jpg);
+  background-image: url(./img/artventuring-about-2-join-the-fun.jpg);
   background-size: cover, contain;
 }
 
@@ -395,7 +395,7 @@ video {
   opacity:0;
   animation: fadein 0.6s forwards;
   animation-delay: 8.4s;
-  background-image: url(./img/about3.jpg); 
+  background-image: url(./img/artventuring-about-3-make-friends.jpg); 
   background-size: cover, contain;
 }
 
@@ -403,7 +403,7 @@ video {
   opacity:0;
   animation: fadein 0.6s forwards;
   animation-delay: 9.2s;
-  background-image: url(./img/about4.jpg);
+  background-image: url(./img/artventuring-about-4-dont-miss-out-updated.jpg);
   background-size: cover, contain;
 }
 
@@ -692,7 +692,7 @@ video {
 .testimonials-container {
   padding-bottom: 10%;
   height: 100vh;             
-  background-image: url(./img/testimonialsbg.jpg);
+  background-image: url(./img/artventuring-app-testimonials-background.jpg);
   background-size: cover, contain;
   scroll-snap-align: start;
 }
@@ -1015,13 +1015,7 @@ footer h1 {
 
 #footer-brand-logo {
   position: relative;      
-  height: 40px;
-  width: auto;
-}
-
-#footer-brand-full {
-  position: relative;
-  height: 30px;
+  height: 70px;
   width: auto;
 }
 
