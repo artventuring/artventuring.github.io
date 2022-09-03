@@ -976,7 +976,7 @@ video {
   margin-left: auto;
   margin-right: auto;
   padding: 0 0 50px 0;  
-  height: 50px;
+  height: 40px;
 }
 
 /***********************************************************************
@@ -1049,7 +1049,7 @@ footer h1 {
 
 .footer-social img {
   margin-left: -2%;
-  height: 42px;
+  height: 35px;
   width: auto;
 }
 
