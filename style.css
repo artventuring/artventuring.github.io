@@ -163,7 +163,7 @@ video {
   background-image: linear-gradient(90deg, #80B3FF 0%, #AFA7FF 25%, #80B3FF 50%, #81CCFF 85%, #80B3FF 98%);  
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: welcomegradient 5s linear infinite;
+  animation: welcomegradient 4s linear infinite;
   background-size: 200%;
 }
 
