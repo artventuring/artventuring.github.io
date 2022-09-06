@@ -910,6 +910,7 @@ video {
 
 @media only screen and (max-width: 550px) {.download-container 
   {padding-top: 50px;
+  height:100vh;
   scroll-snap-align: start;}
 }
 
@@ -967,6 +968,10 @@ video {
   width: 160px;
   padding-left: 10px;       
   padding-right: 10px;
+}
+
+@media only screen and (max-width: 550px) {.download-buttons img
+  {padding-top: 5%}
 }
 
 #download-social-media {
